@@ -460,9 +460,9 @@
     // ═══ 3TWA: PHONE VIDEOS ═══
     // ★ EASY EDIT: swap these URLs to change the phone videos
     const VIDEOS = {
-      left: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
-      center: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm",
-      right: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      left: "https://www.pexels.com/download/video/37904651/",
+      center: "https://www.pexels.com/download/video/38009800/",
+      right: "https://www.pexels.com/download/video/27793241/"
     };
     function changeVideo(id) {
       const url = prompt("Paste a new video URL for the " + id + " phone:", VIDEOS[id]);
